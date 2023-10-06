@@ -4,7 +4,7 @@
 
 
 .HomeMain{
-    background: url("../public/assets/homeBg.jpg");
+    background: url("./assets/homeBg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
