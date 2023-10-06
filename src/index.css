@@ -2,6 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+*{
+    margin: 0;
+    padding: 0;
+    transition: ease-in-out;
+}
 
 .HomeMain{
     background: url("./assets/homeBg.jpg");

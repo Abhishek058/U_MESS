@@ -1,4 +1,4 @@
-const menuB = [
+export const menuB = [
   {
     breakFast: "Macroni, Bread Jam & Bread Butter, Tea",
     lunch: "Dal Makhani, Aloo Gajar Mutter, Rice, Roti, Boondi Raita",
@@ -45,7 +45,7 @@ const menuB = [
   },
 ];
 
-const menuG = [
+export const menuG = [
   {
     breakFast: "Macroni, Bread Jam & Bread Butter, Tea",
     lunch: "Dal Makhani, Aloo Gajar Mutter, Rice, Roti, Boondi Raita",
