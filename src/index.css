@@ -1,16 +1,3 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
-*{
-    margin: 0;
-    padding: 0;
-    transition: ease-in-out;
-}
-
-.HomeMain{
-    background: url("./assets/homeBg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
