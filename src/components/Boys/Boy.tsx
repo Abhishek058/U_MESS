@@ -5,7 +5,7 @@ import { menuB } from "../../mess";
 const Boy = () => {
   return (
     <div>
-      <Today menu={menuB}/>
+      <Today menu={menuB} gender="boys" />
     </div>
   );
 };

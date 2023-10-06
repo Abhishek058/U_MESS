@@ -4,7 +4,7 @@ import Today from "../Today";
 const Girl = () => {
   return (
     <div>
-      <Today menu={menuG} />
+      <Today menu={menuG} gender="girls"/>
     </div>
   );
 };
