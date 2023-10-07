@@ -3,6 +3,7 @@ import Loading from "./Loading";
 import { Link } from "react-router-dom";
 import boy from "../assets/boy.png";
 import girl from "../assets/girl.png";
+import logo from "../assets/chitkara-university-logo.png";
 
 const Home = () => {
   const [isLoding, setIsLoading] = useState(true);
@@ -16,7 +17,11 @@ const Home = () => {
       {isLoding ? (
         <Loading />
       ) : (
-        <div className=" w-full h-screen flex justify-center items-center">
+        <div className="w-full h-screen flex flex-col justify-center items-center">
+          <div className="my-10 text-center font-semibold">
+            <img src={logo} alt="" />
+            <p className="p-4">Real time mess menu</p>
+          </div>
           <div className="flex flex-col h-1/2 justify-center items-center bg-black opacity-90 rounded-xl px-3 md:w-1/2 md:h-2/3 xl:w-1/2 xl:h-2/3">
             <h1 className="text-white text-3xl font-semibold p-8 text-center xl:text-5xl">
               Select Your Mess

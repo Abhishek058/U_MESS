@@ -31,13 +31,14 @@ const Timing: React.FC<TimeProp> = ({ gender }) => {
           <div className="flex flex-col items-center justify-center w-full gap-x-4 p-4">
             {time.map((item, index) => {
               return (
-                <div key={index} className="bg-black w-[350px] p-4 rounded-lg m-3">
+                <div
+                  key={index}
+                  className="bg-black w-[350px] p-4 rounded-lg m-3"
+                >
                   <h1 className="text-xl my-2 text-white font-bold">
                     {item.meal}:
                   </h1>
-                  <p className="text-gray-300 text-center">
-                   {item.time}
-                  </p>
+                  <p className="text-gray-300 text-center">{item.time}</p>
                 </div>
               );
             })}
