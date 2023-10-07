@@ -38,13 +38,15 @@ const Footer: React.FC<FooterProps> = ({ gndr }) => {
           <p className="text-white text-xs p-1">Tommorrow</p>
         </div>
       </Link>
-      <div
-        className="py-2 flex flex-col items-center text-white text-2xl cursor-pointer"
-        onClick={() => {}}
-      >
-        <AiOutlineClockCircle />
-        <p className="text-white text-xs p-1 hover:text-blue-300">Time</p>
-      </div>
+      <Link to={`/${gndr}/time`}>
+        <div
+          className="py-2 flex flex-col items-center text-white text-2xl cursor-pointer"
+          onClick={() => {}}
+        >
+          <AiOutlineClockCircle />
+          <p className="text-white text-xs p-1 hover:text-blue-300">Time</p>
+        </div>
+      </Link>
     </div>
   );
 };

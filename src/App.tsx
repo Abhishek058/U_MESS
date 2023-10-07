@@ -5,6 +5,7 @@ import Girl from "./components/Girls/Girl";
 import Tomorrow from "./components/Tomorrow";
 import { menuB, menuG } from "./mess";
 import Today from "./components/Today";
+import Timing from "./components/Timing";
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
           path="/girls/tomorrow"
           element={<Tomorrow menu={menuG} gender="girls" />}
         />
+        <Route path="/boys/time" element={<Timing gender="boys" />} />
+        <Route path="/girls/time" element={<Timing gender="girls" />} />
       </Routes>
     </BrowserRouter>
   );

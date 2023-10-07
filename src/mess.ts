@@ -91,31 +91,3 @@ export const menuG = [
     dinner: "Mix Dal, Chilli Potatoes, Roti, Rice, Pickle, Kheer",
   },
 ];
-
-export const hostel = [
-  {
-    name: "Magllen",
-    menu: menuB,
-    timing: "",
-  },
-  {
-    name: "Darwin",
-    menu: menuB,
-    timing: "",
-  },
-  {
-    name: "Archemedes",
-    menu: menuB,
-    timing: "",
-  },
-  {
-    name: "Pie",
-    menu: menuG,
-    timing: "",
-  },
-  {
-    name: "IBN",
-    menu: menuG,
-    timing: "",
-  },
-];
