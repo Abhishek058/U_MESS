@@ -43,7 +43,7 @@ const Tomorrow: React.FC<TomorrowProps> = ({ menu, gender }) => {
           <div className="w-full text-center py-4 bg-gray-500 shadow-2xl">
             <h1 className="text-4xl font-semibold">Tomorrow's Menu</h1>
           </div>
-          <div className="py-4 flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
             {menuItem.map((item, index) => {
               return (
                 <div
