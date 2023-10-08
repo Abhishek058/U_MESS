@@ -8,7 +8,7 @@ import Loading from "./Loading";
 
 interface TomorrowProps {
   menu: {
-    breakFast?: string;
+    breakfast?: string;
     lunch?: string;
     snack?: string;
     dinner?: string;
@@ -22,7 +22,7 @@ const Tomorrow: React.FC<TomorrowProps> = ({ menu, gender }) => {
   const TomorrowMenu = menu[date.getDay()];
 
   const menuItem = [
-    { type: "breakfast", img: breakFastImg, text: TomorrowMenu.breakFast },
+    { type: "breakfast", img: breakFastImg, text: TomorrowMenu.breakfast },
     { type: "lunch", img: lunchImg, text: TomorrowMenu.lunch },
     { type: "snack", img: snackImg, text: TomorrowMenu.snack },
     { type: "dinner", img: dinnerImg, text: TomorrowMenu.dinner },

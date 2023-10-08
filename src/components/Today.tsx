@@ -8,7 +8,7 @@ import Loading from "./Loading";
 
 interface TodayProps {
   menu: {
-    breakFast?: string;
+    breakfast?: string;
     lunch?: string;
     snack?: string;
     dinner?: string;
@@ -18,14 +18,21 @@ interface TodayProps {
 
 const Today: React.FC<TodayProps> = ({ menu, gender }) => {
   const date = new Date();
+  var day = date.getDay();
+  if (day === 0) {
+    day = 6;
+  } else {
+    day = day - 1;
+  }
+  
 
-  const todayMenu = menu[date.getDay()-1];
+  const TodayMenu = menu[day];
 
   const menuItem = [
-    { type: "breakfast", img: breakFastImg, text: todayMenu.breakFast },
-    { type: "lunch", img: lunchImg, text: todayMenu.lunch },
-    { type: "snack", img: snackImg, text: todayMenu.snack },
-    { type: "dinner", img: dinnerImg, text: todayMenu.dinner },
+    { type: "breakfast", img: breakFastImg, text: TodayMenu.breakfast },
+    { type: "lunch", img: lunchImg, text: TodayMenu.lunch },
+    { type: "snack", img: snackImg, text: TodayMenu.snack },
+    { type: "dinner", img: dinnerImg, text: TodayMenu.dinner },
   ];
 
   const [isLoading, setIsLoading] = React.useState(true);
