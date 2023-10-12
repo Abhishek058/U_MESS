@@ -68,7 +68,7 @@ export const menuG = [
   {
     breakfast: "Masala Sandwich, Sweet Daliya, Tea",
     lunch: "Kadhi, Aloo Mutter, Rice, Roti, Salad",
-    snack: "Aloo Bonda, Tea",
+    snack: "Cake, Tea",
     dinner: "Dal Makhani, Gobhi Gajar Mutter, Roti, Rice, Pickle, Besan Ladoo",
   },
   {
