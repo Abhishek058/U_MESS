@@ -26,7 +26,7 @@ const Today: React.FC<TodayProps> = ({ menu, gender }) => {
   }
   
 
-  const TodayMenu = menu[day];
+   const TodayMenu = menu[day];
 
   const menuItem = [
     { type: "breakfast", img: breakFastImg, text: TodayMenu.breakfast },

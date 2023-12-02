@@ -34,7 +34,7 @@ export const menuB = [
   {
     breakfast: "Poha/Upma, Bread Jam/ Bread Butter/ Sprouts, Tea",
     lunch: "Dal Makhani, Seasonal Vegetable, Rice, Roti, Salad",
-    snack: "Sweet Bun, Tea",
+    snack: "Pastry, Tea",
     dinner: "Channa Dal, Methi Malai Mutter, Roti, Rice, Pickle, Hot Milk",
   },
   {
