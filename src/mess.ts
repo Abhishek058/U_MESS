@@ -26,7 +26,7 @@ export const menuB = [
   },
   {
     breakfast: "Dal/Onion Parantha, Curd, Tea",
-    lunch: "Black Channa, Aloo Cabbage, Rice, Roti, Raita",
+    lunch: "Black Channa, Aloo Methi, Rice, Roti, Raita",
     snack: "Namkeen, Tea",
     dinner:
       "Moong Saboot, Palak Paneer/Mutter Paneer, Roti, Rice, Pickle, Gulab Jamun",
@@ -73,7 +73,7 @@ export const menuG = [
   },
   {
     breakfast: "Dal/Onion Parantha, Curd, Tea",
-    lunch: "Black Channa, Aloo Cabbage, Rice, Roti, Raita",
+    lunch: "Black Channa, Aloo Methi, Rice, Roti, Raita",
     snack: "Namkeen, Tea",
     dinner:
       "Moong Saboot, Palak Paneer/Mutter Paneer, Roti, Rice, Pickle, Gulab Jamun",
