@@ -1,93 +1,93 @@
 export const menuB = [
   {
-    breakfast: "Macroni, Bread Jam & Bread Butter, Tea",
-    lunch: "Dal Makhani, Aloo Gajar Mutter, Rice, Roti, Boondi Raita",
-    snack: "Cake, Tea",
-    dinner:
-      "Moong Masoor Dal, Paneer Lababdar, Rice, Roti, Pickle, Gulab Jamun",
-  },
-  {
-    breakfast: "Ajwain Parantha, Sabji, Tea",
-    lunch: "Channa Masala, Tamaloo, Tadka Rice, Roti, Raita",
-    snack: "Patty, Tea",
-    dinner: "Mah Channa Dal, Corn Palak, Roti, Rice, Pickle, Hot Milk",
-  },
-  {
-    breakfast: "Aloo Gobhi Parantha, Butter, Tea",
-    lunch: "Rajmah Masala, Aloo Shimla Mirch, Jeera Rice, Roti, Salad",
-    snack: "Samosa, Tea",
-    dinner: "Saboot Masoor, Mix Veg, Roti, Rice, Pickle, Rasgulla",
-  },
-  {
-    breakfast: "Masala Sandwich, Sweet Daliya, Tea",
-    lunch: "Kadhi, Aloo Mutter, Rice, Roti, Salad",
-    snack: "Aloo Bonda, Tea",
-    dinner: "Dal Makhani, Gobhi Gajar Mutter, Roti, Rice, Pickle, Besan ladoo",
-  },
-  {
-    breakfast: "Dal/Onion Parantha, Curd, Tea",
-    lunch: "Black Channa, Aloo Methi, Rice, Roti, Raita",
-    snack: "Namkeen, Tea",
-    dinner:
-      "Moong Saboot, Palak Paneer/Mutter Paneer, Roti, Rice, Pickle, Gulab Jamun",
-  },
-  {
-    breakfast: "Poha/Upma, Bread Jam/ Bread Butter/ Sprouts, Tea",
-    lunch: "Dal Makhani, Seasonal Vegetable, Rice, Roti, Salad",
+    breakfast: "Veg Sandwich, Sweet Daliya, Tea",
+    lunch: "Rajmah , Aloo Jeera, Rice, Roti, Raita",
     snack: "Pastry, Tea",
-    dinner: "Channa Dal, Methi Malai Mutter, Roti, Rice, Pickle, Hot Milk",
+    dinner:
+      "Moong Masoor Dal, Sahi/Kadhai Paneer, Rice, Roti, Ladoo",
+  },
+  {
+    breakfast: "Aloo Parantha, Butter, Tea",
+    lunch: "Dal Makhani, Nutri Masala, Rice, Roti, Mix Raita",
+    snack: "Bread Pakoda/ Bread Roll, Tea",
+    dinner: "Saboot Masoor Dal, Aloo Mutter Dry, Roti, Rice, Gulab Jamun",
+  },
+  {
+    breakfast: "Macroni, Bread Jam, Bread Toast, Coffee",
+    lunch: "White Chana, Aloo Methi, Rice, Roti, Raita",
+    snack: "Patty, Tea",
+    dinner: "Panchratni Dal, Mushroom Mutter, Roti, Rice, Hot Milk",
+  },
+  {
+    breakfast: "Plain Prantha, Aloo Subji, Tea",
+    lunch: "Kadhi, Aloo Gobhi, Rice, Roti, Salad",
+    snack: "Samosa, Tea",
+    dinner: "Dal Fry, Aloo Gajar Mutter/Aloo Jeera, Roti, Rice, Rasgulla",
+  },
+  {
+    breakfast: "Aloo Parantha, Curd, Tea",
+    lunch: "Black Channa, Mix Veg, Rice, Roti, Raita",
+    snack: "Rusk/Mathi, Tea",
+    dinner:
+      "Moong Saboot, Mutter Paneer/ Paneer Lababdar/Egg Curry, Roti, Rice, Gulab Jamun",
+  },
+  {
+    breakfast: "Poha, Bread Jam/ Bread Butter, Daliya, Tea",
+    lunch: "Rajmah Masala, Aloo Shimla Mirch, Rice, Roti, Salad",
+    snack: "Biscuit, Tea",
+    dinner: "Soya Chaap, Dal Tadka, Roti, Rice, Hot Milk",
   },
   {
     breakfast: "Poori, Sooji ka Halwa, Aloo ki Sabji, Tea",
-    lunch: "Channa Masala, Kulcha, Pea Pulao, Pickle",
-    snack: "Biscuit, Coffee",
-    dinner: "Mix Dal, Aloo Nutri, Roti, Rice, Pickle, Kheer",
+    lunch: "Amritsari Dal, Kaduu, Tadka Rice, Roti, Raita",
+    snack: "Namkeen, Tea",
+    dinner: "Dal Makhani, Gravy Mushroom Do Pyaza, Roti, Rice, Kheer",
   },
 ];
 
 export const menuG = [
   {
-    breakfast: "Macroni, Bread Jam & Bread Butter, Tea",
-    lunch: "Dal Makhani, Aloo Gajar Mutter, Rice, Roti, Boondi Raita",
-    snack: "Aloo Bonda, Tea",
-    dinner:
-      "Moong Masoor Dal, Paneer Lababdar, Rice, Roti, Pickle, Gulab Jamun",
-  },
-  {
-    breakfast: "Pav Bhaji, Sabji, Tea",
-    lunch: "Channa Masala, Tamaloo, Tadka Rice, Roti, Raita",
+    breakfast: "Veg Sandwich, Sweet Daliya, Tea",
+    lunch: "Rajmah , Aloo Jeera, Rice, Roti, Raita",
     snack: "Samosa, Tea",
-    dinner: "Mah Channa Dal, Corn Palak, Roti, Rice, Pickle, Hot Milk",
-  },
-  {
-    breakfast: "Aloo Gobhi Parantha, Butter, Tea",
-    lunch: "Rajmah Masala, Aloo Shimla Mirch, Jeera Rice, Roti, Salad",
-    snack: "Patty, Tea",
-    dinner: "Saboot Masoor, Mix Veg, Roti, Rice, Pickle, Rasgulla",
-  },
-  {
-    breakfast: "Masala Sandwich, Sweet Daliya, Tea",
-    lunch: "Kadhi, Aloo Mutter, Rice, Roti, Salad",
-    snack: "Cake, Tea",
-    dinner: "Dal Makhani, Gobhi Gajar Mutter, Roti, Rice, Pickle, Besan Ladoo",
-  },
-  {
-    breakfast: "Dal/Onion Parantha, Curd, Tea",
-    lunch: "Black Channa, Aloo Methi, Rice, Roti, Raita",
-    snack: "Namkeen, Tea",
     dinner:
-      "Moong Saboot, Palak Paneer/Mutter Paneer, Roti, Rice, Pickle, Gulab Jamun",
+      "Moong Masoor Dal, Sahi/Kadhai Paneer, Rice, Roti, Ladoo",
   },
   {
-    breakfast: "Poha/Upma, Bread Jam/ Bread Butter/ Sprouts, Tea",
-    lunch: "Dal Makhani, Seasonal Vegetable, Rice, Roti, Salad",
-    snack: "Sweet Bun, Tea",
-    dinner: "Channa Dal, Methi Malai Mutter, Roti, Rice, Pickle, Hot Milk",
+    breakfast: "Aloo Parantha, Butter, Tea",
+    lunch: "Dal Makhani, Nutri Masala, Rice, Roti, Mix Raita",
+    snack: "Patty, Tea",
+    dinner: "Saboot Masoor Dal, Aloo Mutter Dry, Roti, Rice, Kheer",
+  },
+  {
+    breakfast: "Macroni, Bread Jam, Bread Toast, Coffee",
+    lunch: "White Chana, Aloo Methi, Rice, Roti, Raita",
+    snack: "Bread Pakoda/ Bread Roll, Tea",
+    dinner: "Panchratni Dal, Mushroom Mutter, Roti, Rice, Hot Milk",
+  },
+  {
+    breakfast: "Plain Prantha, Aloo Subji, Tea",
+    lunch: "Kadhi, Aloo Gobhi, Rice, Roti, Salad",
+    snack: "Pastry, Tea",
+    dinner: "Dal Fry, Aloo Gajar Mutter/Aloo Jeera, Roti, Rice, Rasgulla",
+  },
+  {
+    breakfast: "Aloo Parantha, Curd, Tea",
+    lunch: "Black Channa, Mix Veg, Rice, Roti, Raita",
+    snack: "Rusk/Mathi, Tea",
+    dinner:
+      "Moong Saboot, Mutter Paneer/ Paneer Lababdar/Egg Curry, Roti, Rice, Gulab Jamun",
+  },
+  {
+    breakfast: "Poha, Bread Jam/ Bread Butter, Daliya, Tea",
+    lunch: "Rajmah Masala, Aloo Shimla Mirch, Rice, Roti, Salad",
+    snack: "Biscuit, Tea",
+    dinner: "Soya Chaap, Dal Tadka, Roti, Rice, Hot Milk",
   },
   {
     breakfast: "Poori, Sooji ka Halwa, Aloo ki Sabji, Tea",
-    lunch: "Channa Masala, Kulcha, Pea Pulao, Pickle",
-    snack: "Biscuit, Coffee",
-    dinner: "Mix Dal, Chilli Potatoes, Roti, Rice, Pickle, Kheer",
+    lunch: "Amritsari Dal, Kaduu, Tadka Rice, Roti, Raita",
+    snack: "Namkeen, Tea",
+    dinner: "Dal Makhani, Gravy Mushroom Do Pyaza, Roti, Rice, Gulab Jamun",
   },
 ];
